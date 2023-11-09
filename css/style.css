@@ -256,7 +256,7 @@ input[type="submit"]:hover {
     box-sizing: border-box;
     position: relative;
     z-index: 1;
-    /* font-family: var(--font-sansserif); */
+    font-family: var(--font-sansserif);
     letter-spacing: 0.1em;
     /* background-color: white; */
     opacity: .8;
@@ -469,7 +469,7 @@ input[type="submit"]:hover {
         padding: 1.3125rem;
     }
     .g-menuBtn-right img{
-        width: 100%;
+        width: 50%;
        }
 }
 .g-menuBack {
