@@ -321,7 +321,7 @@ input[type="submit"]:hover {
     display: inline-block;
     text-decoration: none;
     line-height: 2.4;
-    font-size: 1rem;
+    font-size: 1.4rem;
     position: relative;
     transition: color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -363,7 +363,7 @@ input[type="submit"]:hover {
         margin-bottom: 2.5rem;
     }
     .g-menuList li a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .g-menuList.mini li a {
         font-size: 1rem;
