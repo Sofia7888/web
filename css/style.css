@@ -371,9 +371,9 @@ backdrop-filter: blur(5.2px);
     font-size: 0.75rem;
 }
 @media screen and (max-width: 640px) {
-    .g-menuList {
+    /* .g-menuList {
         margin-bottom: 3.75rem;
-    }
+    } */
     .g-menuList.mini {
         margin-bottom: 2.5rem;
     }
