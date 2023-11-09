@@ -27,6 +27,7 @@ ol {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 
@@ -42,10 +43,6 @@ table {
     --color-bg-2: #e4e4e4;
     --color-grey: #4d4d4d;
     --color-green: #182220;
-    /* --font-gothic: YakuHanJP_Narrow, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Arial", "メイリオ", "Meiryo", sans-serif;
-    --font-ie: メイリオ, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Arial", "メイリオ", "Meiryo", sans-serif;
-    --font-serif: "Baskerville", sans-serif;
-    --font-sansserif: "Work Sans", YakuHanJP_Narrow, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", sans-serif; */
     --font-size: 1rem;
     --font-size-px: 16px;
     --easing: cubic-bezier(0.25, 1, 0.5, 1);
@@ -325,7 +322,7 @@ backdrop-filter: blur(5.2px);
 
 
 .g-menuList {
-    margin-bottom: 1.875rem;
+    /* margin-bottom: 1.875rem; */
     opacity: 0;
     transition: opacity 0.3s cubic-bezier(0.77, 0, 0.175, 1) 0.3s;
 }
@@ -739,6 +736,13 @@ svg.menu-btn-icon {
         border-width: 4px 4px 0 4px;
         margin-left: -4px;
     }
+
+
+    .l-photoIndex__titles {
+            font-size: 48px;
+    
+         
+    }
 }
 .l-photoSlider__loading {
     width: 100px;
@@ -768,6 +772,10 @@ svg.menu-btn-icon {
         margin-left: -25px;
         top: calc(50%);
     }
+    
+
+
+
 }
 @keyframes loading {
     0% {
